@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: dataos-client
+server:
+  port: 8088
+logging:
+  level:
+    root: info
+remote:
+  dq:
+    server:
+      url: http://127.0.0.1:8056/data_quality/excuteRuleResult
